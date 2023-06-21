@@ -1,0 +1,141 @@
+/* ELEMENTI COMUNI */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+li {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.latest {
+  margin-left: 1.5em;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+/* CARD */
+
+@media screen and (min-width: 576px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em;
+  }
+
+  #card {
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    border: 1px solid white;
+    width: 300px;
+    border-radius: 50px;
+    margin-bottom: 1.2em;
+  }
+
+  article img {
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .card-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: brown;
+    margin-top: 1em;
+    padding: 0.8em;
+  }
+
+  .text {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  button {
+    border: 1px solid white;
+    background-color: #f3df85;
+    padding: 1.3em;
+    border-radius: 50px;
+    color: brown;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-weight: 900;
+    width: 70%;
+  }
+
+  /* NAVBAR */
+
+  nav {
+    background-color: #fbf7e3;
+    margin: 1em;
+    padding: 2em;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: brown;
+  }
+
+  li {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #f3df85;
+    padding: 1em;
+    font-size: 0.8rem;
+  }
+
+  ul :nth-child(3) {
+    width: 30%;
+  }
+
+  /* ASIDE */
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+  }
+
+  .container {
+    padding: 2em;
+    background-color: bisque;
+    color: brown;
+    border-radius: 50px;
+  }
+
+  aside h2,
+  p {
+    margin: 1.2em;
+  }
+
+  .container img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
